@@ -8,6 +8,16 @@ public class Main {
         }
         for (int i = 0; i < 20; i++) {
             System.out.println("b");
+            if (i == 10)
+                System.out.println("PAAAAAAAAAAAAAAAAAAAIIIIIIIIIIN");
+        }
+
+        int[] array = new int[10];
+        for (int i = 0; i < 10; i++) {
+            array[i] = i;
+        }
+        for (int i = 0; i < 10; i++) {
+            System.out.println(array[i]);
         }
     }
 }
